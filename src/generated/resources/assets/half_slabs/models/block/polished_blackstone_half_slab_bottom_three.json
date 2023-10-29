@@ -1,0 +1,8 @@
+{
+  "parent": "half_slabs:block/half_slab/bottom_three",
+  "textures": {
+    "bottom": "minecraft:block/polished_blackstone",
+    "side": "minecraft:block/polished_blackstone",
+    "top": "minecraft:block/polished_blackstone"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "half_slabs:block/end_stone_brick_half_slab"
+    },
+    "type=bottom_three": {
+      "model": "half_slabs:block/end_stone_brick_half_slab_bottom_three"
+    },
+    "type=bottom_two": {
+      "model": "half_slabs:block/end_stone_brick_half_slab_bottom_two"
+    },
+    "type=full": {
+      "model": "minecraft:block/end_stone_bricks"
+    },
+    "type=middle_bottom": {
+      "model": "half_slabs:block/end_stone_brick_half_slab_middle_bottom"
+    },
+    "type=middle_top": {
+      "model": "half_slabs:block/end_stone_brick_half_slab_middle_top"
+    },
+    "type=middle_two": {
+      "model": "half_slabs:block/end_stone_brick_half_slab_middle_two"
+    },
+    "type=top": {
+      "model": "half_slabs:block/end_stone_brick_half_slab_top"
+    },
+    "type=top_three": {
+      "model": "half_slabs:block/end_stone_brick_half_slab_top_three"
+    },
+    "type=top_two": {
+      "model": "half_slabs:block/end_stone_brick_half_slab_top_two"
+    }
+  }
+}

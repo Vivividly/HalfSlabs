@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "block": "half_slabs:prismarine_brick_half_slab",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "type": "top_two"
+                      }
+                    },
+                    {
+                      "block": "half_slabs:prismarine_brick_half_slab",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "type": "middle_two"
+                      }
+                    },
+                    {
+                      "block": "half_slabs:prismarine_brick_half_slab",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "type": "bottom_two"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "block": "half_slabs:prismarine_brick_half_slab",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "type": "top_three"
+                      }
+                    },
+                    {
+                      "block": "half_slabs:prismarine_brick_half_slab",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "type": "bottom_three"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "count": 3.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "add": false,
+              "conditions": [
+                {
+                  "block": "half_slabs:prismarine_brick_half_slab",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "type": "full"
+                  }
+                }
+              ],
+              "count": 4.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "half_slabs:prismarine_brick_half_slab"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
